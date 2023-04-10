@@ -1,0 +1,630 @@
+@import url("https://use.typekit.net/ffg4fws.css");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  -webkit-animation: fade-in 3.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 3.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-bottom 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+body {
+  background-color: #101012;
+}
+
+header h1 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 620px) {
+  header h1 {
+    margin-left: 30px;
+  }
+}
+header nav {
+  position: fixed;
+  right: 100px;
+  top: 40px;
+}
+@media screen and (max-width: 880px) {
+  header nav {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 620px) {
+  header nav {
+    display: none;
+  }
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 60px;
+}
+@media screen and (max-width: 880px) {
+  header nav ul li {
+    margin-left: 30px;
+  }
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 20px;
+  font-size: 22px;
+  color: #FFFFFF;
+  transition: ease-in-out 0.5s;
+  border: 3px solid transparent;
+  border-radius: 20px;
+}
+header nav ul li a:hover {
+  border-color: #FFFFFF;
+}
+
+main .home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 880px) {
+  main .home {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+main .home .info {
+  padding-bottom: 20px;
+}
+main .home .info .text-description {
+  margin-top: 70px;
+  width: 400px;
+}
+@media screen and (max-width: 620px) {
+  main .home .info .text-description {
+    margin-top: 50px;
+    width: 300px;
+  }
+}
+main .home .info .text-description h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 38px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+main .home .info .text-description h2 .job-title {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+main .home .info .text-info {
+  background-color: #4004EC;
+  color: #FFFFFF;
+  width: 400px;
+  height: 380px;
+  border-radius: 15px;
+  margin-top: 35px;
+  padding-top: 45px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: background-color ease-in-out 0.5s;
+}
+@media screen and (max-width: 620px) {
+  main .home .info .text-info {
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+main .home .info .text-info h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 38px;
+  text-align: center;
+}
+main .home .info .text-info h3 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 35px;
+}
+main .home .info .text-info h4 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: 5px;
+}
+main .home .info .text-info a {
+  display: inline-block;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-top: 5px;
+}
+main .home .project {
+  color: #FFFFFF;
+  margin-top: 70px;
+}
+main .home .project h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+main .home .project a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #101012;
+  text-align: left;
+  padding-left: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40vw;
+  height: 100px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, outline 0.2s ease-out, padding-left 0.5s ease-in;
+}
+@media screen and (max-width: 880px) {
+  main .home .project a {
+    width: 75vw;
+  }
+}
+main .home .project a:hover {
+  background-color: #101012;
+  color: #FFFFFF;
+  outline: 3px solid #FFFFFF;
+  padding-left: 60px;
+}
+main .works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main .works h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  padding-top: 60px;
+  width: 100vw;
+  color: #FFFFFF;
+  font-size: 32px;
+  margin-left: 100px;
+}
+@media screen and (max-width: 620px) {
+  main .works h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+main .works .work {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: fit-content;
+}
+@media screen and (max-width: 620px) {
+  main .works .work {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+main .works .work .work-title {
+  padding-top: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 620px) {
+  main .works .work .work-title {
+    justify-content: center;
+  }
+}
+main .works .work .work-title .page-title {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 30px;
+  transition: ease-out 0.5s;
+}
+main .works .work .work-title .page-title:hover {
+  color: #4004EC;
+}
+main .works .work .work-title .page-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  border-radius: 25px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  transition: ease-out 0.5s;
+}
+@media screen and (max-width: 880px) {
+  main .works .work .work-title .page-link {
+    margin-left: 15vw;
+  }
+}
+@media screen and (max-width: 620px) {
+  main .works .work .work-title .page-link {
+    margin-left: 5vw;
+    width: 100px;
+  }
+}
+main .works .work .work-title .page-link:hover {
+  background-color: #FFFFFF;
+  color: #101012;
+}
+main .works .work .work-description {
+  margin-top: 50px;
+  width: 650px;
+}
+@media screen and (max-width: 880px) {
+  main .works .work .work-description {
+    width: 75vw;
+  }
+}
+@media screen and (max-width: 620px) {
+  main .works .work .work-description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+main .works .work .work-description h3 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 30px;
+  word-spacing: 5px;
+  line-height: 35px;
+}
+main .works .work .work-image {
+  display: inline-block;
+  width: 700px;
+  height: 400px;
+  margin-top: 70px;
+  background-color: #4004EC;
+}
+@media screen and (max-width: 880px) {
+  main .works .work .work-image {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 620px) {
+  main .works .work .work-image {
+    width: 250px;
+    height: 180px;
+    margin-left: 2vh;
+  }
+}
+main .works .work .work-image img {
+  width: 700px;
+  margin-top: 75px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  transition: 0.5s ease-in-out;
+}
+@media screen and (max-width: 880px) {
+  main .works .work .work-image img {
+    width: 450px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 620px) {
+  main .works .work .work-image img {
+    width: 320px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+main .works .work .work-image img:hover {
+  transform: translateY(-10px);
+}
+main .about {
+  padding-bottom: 100px;
+}
+main .about h2 {
+  margin-left: 100px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 30px;
+  color: #FFFFFF;
+  font-size: 32px;
+}
+@media screen and (max-width: 620px) {
+  main .about h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+main .about .text-about {
+  width: 80vw;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+@media screen and (max-width: 620px) {
+  main .about .text-about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+main .about .text-about h3 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 35px;
+  word-spacing: 5px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+main .about .languages {
+  margin-top: 70px;
+  margin-left: 100px;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 620px) {
+  main .about .languages {
+    margin-left: 0px;
+  }
+}
+main .about .languages h3 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+@media screen and (max-width: 620px) {
+  main .about .languages h3 {
+    text-align: center;
+  }
+}
+main .about .languages div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 620px) {
+  main .about .languages div {
+    justify-content: center;
+  }
+}
+main .about .languages div .language {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
+@media screen and (max-width: 880px) {
+  main .about .languages div .language {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 620px) {
+  main .about .languages div .language {
+    flex-direction: column;
+  }
+}
+main .about .languages div .language h4 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+main .about .languages div .language .level {
+  margin-top: 0px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 620px) {
+  main .about .languages div .language .level {
+    margin-top: 30px;
+  }
+}
+main .about .languages div .language .level .good {
+  margin-top: 0px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #4004EC;
+  transition: transform 0.3s ease-in-out;
+}
+main .about .languages div .language .level .good:hover {
+  transform: translateY(-10px);
+}
+main .about .languages div .language .level .bad {
+  margin-top: 0px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #C0C0C0;
+  transition: transform 0.3s ease-in-out;
+}
+main .about .languages div .language .level .bad:hover {
+  transform: translateY(-10px);
+}
+
+/*# sourceMappingURL=style.css.map */
