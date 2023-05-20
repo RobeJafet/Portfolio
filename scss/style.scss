@@ -5,6 +5,10 @@
 @use 'animate';
 
 
+.hidden{
+    display: none;
+}
+
 body {
     background-color: colors.$black-color;
 }
