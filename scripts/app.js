@@ -8,7 +8,6 @@ const observerFade = new IntersectionObserver(entries => {
 
 const workElements = document.querySelectorAll('.work');
 var nav = document.querySelector('nav');
-console.log(nav);
 
 workElements.forEach((work) => observerFade.observe(work));
 
@@ -25,7 +24,7 @@ window.addEventListener(
       else{
         altura = 0.8
         nav.classList.add("hidden")
-        console.log(nav);
+
       }
 
       document.body.style.setProperty(
