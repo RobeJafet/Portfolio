@@ -277,6 +277,7 @@ main {
                     width: 75vw;
                 }
                 @include breakpoints.media-up(sm){
+                    width: 65vw;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: center;
@@ -298,13 +299,13 @@ main {
                 margin-top: 70px;
                 background-color: colors.$blue-color;
                 @include breakpoints.media-up(md){
-                    width: 500px;
+                    width: 450px;
                     height: 250px;
                 } 
                 @include breakpoints.media-up(sm){
-                    width: 250px;
-                    height: 180px;
-                    margin-left: 2vh;
+                    width: 300px;
+                    height: 120px;
+                    margin-left: 2vw;
                 } 
                 img{
                     width: 700px;
@@ -312,12 +313,13 @@ main {
                     margin-left: 80px;
                     margin-bottom: 40px;
                     @include breakpoints.media-up(md){
+                        margin-left: 50px;
                         width: 450px;
                         margin-top: 50px;
                     }  
                     @include breakpoints.media-up(sm){
-                        width: 320px;
-                        margin-top: 30px;
+                        width: 300px;
+                        margin-top: 20px;
                         margin-left: 10px;
                     } 
                     transition: 0.5s ease-in-out;

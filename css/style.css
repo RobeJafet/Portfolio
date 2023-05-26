@@ -420,6 +420,7 @@ main .works .work .work-description {
 }
 @media screen and (max-width: 620px) {
   main .works .work .work-description {
+    width: 65vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -443,15 +444,15 @@ main .works .work .work-image {
 }
 @media screen and (max-width: 880px) {
   main .works .work .work-image {
-    width: 500px;
+    width: 450px;
     height: 250px;
   }
 }
 @media screen and (max-width: 620px) {
   main .works .work .work-image {
-    width: 250px;
-    height: 180px;
-    margin-left: 2vh;
+    width: 300px;
+    height: 120px;
+    margin-left: 2vw;
   }
 }
 main .works .work .work-image img {
@@ -463,14 +464,15 @@ main .works .work .work-image img {
 }
 @media screen and (max-width: 880px) {
   main .works .work .work-image img {
+    margin-left: 50px;
     width: 450px;
     margin-top: 50px;
   }
 }
 @media screen and (max-width: 620px) {
   main .works .work .work-image img {
-    width: 320px;
-    margin-top: 30px;
+    width: 300px;
+    margin-top: 20px;
     margin-left: 10px;
   }
 }
