@@ -420,7 +420,6 @@ main .works .work .work-description {
 }
 @media screen and (max-width: 620px) {
   main .works .work .work-description {
-    width: 65vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
