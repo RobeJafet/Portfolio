@@ -143,7 +143,7 @@ main {
                 a {
                     display: inline-block;
                     @include fonts.light-font;
-                    text-decoration: none;
+                    text-decoration: underline;
                     color: colors.$white-color;
                     font-size: 22px;
                     margin-top: 5px;
